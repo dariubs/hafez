@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>فال حافظ</title>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  
+  <style>
+    @import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+    
+    h1,h2,h3,h4,h5,h6,p,input{
+      font-family: 'Droid Arabic Naskh', serif;
+    }
+    
+    #siteTitle {
+      text-align: center;
+
+    }
+    
+    .rtl {
+      direction: rtl;
+      text-align: right;
+    }
+    
+    .centr {
+      direction: rtl;
+      text-align: center;
+      margin: 2em;
+    }
+  </style>
+  
+  
+</head>
+<body>
+<div class="container">
+  <div class="row centered">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <h1 id="siteTitle">فالِت بگیرُم؟</h1> 
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <p class="rtl">اگر میخواهید فال بگیرید نیت کنید و دکمه ی ها کاکو را فشار دهید، در غیر اینصورت اگر مایل نیستید فالتون بگیریم دکمه ی نا عامو را بدون اینکه نیت کنید فشارید دهید</p>
+    </div>
+    
+    <div class="col-md-2 col-lg-2 col-md-offset-4 col-lg-offset-4 centered" >
+      <input type="submit" onclick="fall()" id="button" value="ها کاکو" class="btn btn-success btn-block btn-block btn-lg">
+    </div>
+    
+    <div class="col-md-2 col-lg-2  centered" >
+      <input type="submit" onclick="nofall()" id="button" value="نا عامو" class="btn btn-warning btn-block btn-lg">
+    </div>
+    
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <p class="centr"> کاری از اجتماع شب یلدایی های خونمون - با قدرت گنجور و شب یلدا </p>
+    </div>
+    
+  </div>
+</div>
+
+ 
+
+  
+  <script>
+  
+  function fall(){
+    location = "http://ganjoor.net/hafez/ghazal/sh" + Math.round(Math.random()*495);
+  }
+
+  function nofall() {
+    alert("پس لااقل یک شعر از حافظ بخون عامو :)");
+    location = "http://ganjoor.net/hafez/ghazal/sh" + Math.round(Math.random()*495);
+  }
+  
+  </script>
+</body>
+</html>
