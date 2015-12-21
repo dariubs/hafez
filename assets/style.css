@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+
+body {
+  background-color: #111;
+}
+
+h1,h2,h3,h4,h5,h6,p,input{
+  font-family: 'Droid Arabic Naskh', serif;
+}
+
+#siteTitle {
+  text-align: center;
+  color: #fefefe;
+}
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+  color: #fefefe;
+}
+
+.centr {
+  direction: rtl;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+.red {
+  color: #F22613;
+}
