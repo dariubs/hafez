@@ -2,4 +2,4 @@
 
 Yalda nights fun.
 
-copyright © 1393, 1394.
+copyright © 1393, 1394, 1395, 1396 [@dariubs](https://github.com/dariubs)
